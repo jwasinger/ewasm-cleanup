@@ -1,5 +1,7 @@
 # ewasm-cleanup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ewasm/ewasm-cleanup.svg)](https://greenkeeper.io/)
+
 This tool transform WebAssembly S-expressions (WAST) code to an output conforming to the [*eWASM Contract Interface*](https://github.com/ethereum/evm2.0-design).
 
 It is especially useful for using together `clang` to create eWASM contracts, because `clang` and C has a few limitations regarding WebAssembly currently.
